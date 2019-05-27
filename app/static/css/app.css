@@ -254,3 +254,11 @@ footer{
 a{
     color: blue;
 }
+
+.about{
+    width: 250px;
+    height: 150px;
+    border: dashed red;
+    margin: 10px;
+    float: left;
+}

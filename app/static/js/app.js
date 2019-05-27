@@ -333,6 +333,18 @@ template:`
                         <div class="col-lg-2 col-md-8"> 
                             <img class="dispaly_img" v-bind:src="CTlogo" />
                         </div>
+                        <div>
+                            <h4>About the Developers </h4>
+                            <div class="about" ><h5> Davia Smith</h5> 
+                            <p> A graduate of University of the West Indies, Ms. Smith has an avid interest in Physics and Computer Science.</p> 
+                            </div>
+                            <div class="about"><h5> Rushane Barnes</h5> 
+                            <p> Mr. Barnes is also a graduate of the University of the West Indies with knowledge of several programming languages. </p> 
+                            </div>                            
+                            <div class="about"><h5> Erica Virgo</h5> 
+                            <p> Ms. Virgo, graduate of the University of the West Indies with a major of Computer Science, enjoys coding for fun. </p> 
+                            </div>                            
+                        </div>
                         <div class="col-lg-10">
                             <div class="col-lg-6 col-md-8 float-left">
                                 <h4>Contact Us</h4>
