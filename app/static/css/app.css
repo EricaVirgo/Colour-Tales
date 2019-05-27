@@ -1,0 +1,256 @@
+body {
+    padding-top: 5rem;
+     background-image: url(/static/images/trees.gif);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.jumbotron{
+    background-color: white;
+    width:30em;
+    height: inherit;
+    
+}
+#headz{
+    color:red;
+}
+
+#profile{
+    width:inherit;
+    height:inherit;
+    padding-top:1em;
+}
+
+.logophoto{
+    border-radius: 50%;
+    width:4%; 
+    height:4%;
+}
+
+.explorer{
+    margin-top:5em;
+}
+
+
+.hdiv1{
+    display: inline-block;
+}
+
+.pics{
+    height: 300px;
+    width: 300px;
+}
+
+.carousel, ul{
+    height: 300px;
+}
+
+.carousel{
+    position: absolute;
+    width: 600px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 100px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.50);
+}
+
+.carousel li{
+    display: inline-block;
+    height: 300px;
+    float: left;
+    position: relative;
+    width: 600px;
+}
+
+.carousel ul{
+    position: absolute;
+    left: 0;
+    top: -15px;
+    width: 5000px;
+    list-style: none;
+    margin-left: -50px;
+    transition: left .3s linear;
+}
+
+.carousel-container{
+    margin: 0 auto;
+    padding: 0;
+    width: 600px;
+}
+
+.carousel-container img{
+    width: 100%;
+    padding: 0 10px;
+}
+
+.carousel ul{
+    animation: slide-animation 15s infinite;
+}
+.carousel ul:hover{
+    animation-play-state: paused;
+}
+
+@keyframes slide-animation{
+    20%{left: 0}
+    25%{left: -600px}
+    45%{left: -600px}
+    50%{left: -1200px}
+    70%{left: -1200px}
+    75%{left: -1800px}
+    98%{left: -1800px}
+    100%{left: -0}
+
+    
+}
+
+p.link:link{
+    color: blue;
+    font-size:50px;
+    text-decoration: underline;
+}
+
+p.link:visited{
+    color: purple;
+}
+
+p.link:hover{
+    color: green;
+}
+
+p.link:active{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.homelogo{
+    padding-left:8em;
+    margin-top:0em;
+}
+
+.font{
+    font-family: 'fantasy';
+    color: black;
+    padding-left:1%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.user_post_img{
+    padding-left:5%; 
+    width:12%; 
+    height:12%;
+    margin-left:5px;
+}
+
+h5{
+    padding-left:5%;
+}
+
+.homelogoname{
+    font: Arial;
+    font-size:48px;
+    color: red;
+}
+
+
+
+.post_img{
+    width:300px;
+    height:500px;
+}
+.iconimage{
+    width:30px; 
+    height:30px;
+}
+
+
+.postdate{
+    margin-top: 5px;
+    font-weight: bold;
+    padding-left:25px;
+}
+
+footer{
+    color: black;
+    font-family: 'fantasy';
+    font-size:30px;
+    font-weight: bold;
+}
+
+
+
+.contentdisplay{
+    margin-top:10em; 
+    margin-left:5em;
+}
+.regular{
+    padding-left:30%;
+    padding-top:5%;
+}
+.shadow {
+    box-shadow: 5px 5px 25px #3598af;
+}
+
+.btn-success{
+    background-color: #6EBC07;
+}
+
+
+.btn-primary{
+    background-color:#0099CC;
+}
+
+.home_page_img{
+    width:inherit;
+    height:21em;
+}
+
+.follow{
+    padding-left:35%;
+    color:grey;
+}
+
+.posts{
+    padding-left:25%;
+    color:grey;
+}
+.colors{
+    color:black;
+    font-size:36px;
+}
+.followbutton{
+    padding-left:30%;
+}
+.homedisplay{
+    height:100%;
+}
+
+.postcaption{
+    margin-left:10px;
+}
+
+.input-group,.formlabel{
+    font-weight:bold;
+}
+
+.dispaly_img{
+    width:10em;
+    height:10em;
+    border-radius: 50%;
+}
+
+.feature_img{
+    width: 300px;
+    height: 300px;
+    border-radius:10%;
+}
+
+.photo_posts{
+    width:300px;
+    height:300px;
+}
+
+a{
+    color: blue;
+}
